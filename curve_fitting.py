@@ -2,6 +2,9 @@
 import numpy as np
 import matplotlib.pyplot as plt 
 from scipy.optimize import curve_fit
+import warnings
+warnings.filterwarnings('ignore')
+%matplotlib inline
 
 # Curve fir for linear equation 
 def func_linear(t,a,b):
